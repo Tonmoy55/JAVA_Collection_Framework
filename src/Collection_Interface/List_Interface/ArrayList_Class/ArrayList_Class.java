@@ -5,9 +5,6 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * 2nd commit
- */
 public class ArrayList_Class {
     public static void main(String[] args) {
 
