@@ -14,11 +14,11 @@ public class Arrays_Class {
         Integer[] array = {2,4,6,5,8,9,7,3,10};
         Arrays.sort(array);
         for (int i = 0 ; i<array.length;i++){
-            System.out.println(array[i]);
+            System.out.print(array[i]+",");
         }
-        System.out.println("Index number of 10 is:"+Arrays.binarySearch(array,10));
+        System.out.println("\nIndex number of 10 is:"+Arrays.binarySearch(array,10));
 
-        Arrays.fill(array,0);
+        Arrays.fill(array,1);
         System.out.println("After filling the array with 0: ");
         for (int i  = 0 ; i< array.length; i++){
             System.out.print(array[i]+",");
